@@ -1,0 +1,16 @@
+[2020-06-03 07:11:15] local.ERROR: There are no commands defined in the "comfig" namespace.
+
+Did you mean this?
+    config {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"comfig\" namespace.
+
+Did you mean this?
+    config at /Applications/XAMPP/xamppfiles/htdocs/mhn_group/vendor/symfony/console/Application.php:574)
+[stacktrace]
+#0 /Applications/XAMPP/xamppfiles/htdocs/mhn_group/vendor/symfony/console/Application.php(625): Symfony\\Component\\Console\\Application->findNamespace('comfig')
+#1 /Applications/XAMPP/xamppfiles/htdocs/mhn_group/vendor/symfony/console/Application.php(228): Symfony\\Component\\Console\\Application->find('comfig:cache')
+#2 /Applications/XAMPP/xamppfiles/htdocs/mhn_group/vendor/symfony/console/Application.php(140): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 /Applications/XAMPP/xamppfiles/htdocs/mhn_group/vendor/laravel/framework/src/Illuminate/Console/Application.php(93): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 /Applications/XAMPP/xamppfiles/htdocs/mhn_group/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(129): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 /Applications/XAMPP/xamppfiles/htdocs/mhn_group/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
